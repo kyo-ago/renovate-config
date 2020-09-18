@@ -1,0 +1,18 @@
+{
+  "npm": {
+    "packageRules": [
+      {
+        "packageNames": ["js-base64"],
+        "allowedVersions": "<3.0.0"
+      },
+      {
+        "packageNames": ["query-string"],
+        "allowedVersions": "<6.0.0"
+      },
+      {
+        "packageNames": ["crypto-random-string"],
+        "allowedVersions": "<3.3.0"
+      }
+    ]
+  }
+}
