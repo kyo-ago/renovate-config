@@ -6,6 +6,10 @@
         "allowedVersions": "<3.0.0"
       },
       {
+        "packageNames": ["react-pdf"],
+        "allowedVersions": "<5.0.0"
+      },
+      {
         "packageNames": ["query-string"],
         "allowedVersions": "<6.0.0"
       },
