@@ -2,19 +2,23 @@
   "npm": {
     "packageRules": [
       {
-        "packageNames": ["js-base64"],
-        "allowedVersions": "<3.0.0"
-      },
-      {
-        "packageNames": ["react-pdf"],
+        "matchPackageNames": ["react-select"],
         "allowedVersions": "<5.0.0"
       },
       {
-        "packageNames": ["query-string"],
+        "matchPackageNames": ["js-base64"],
+        "allowedVersions": "<3.0.0"
+      },
+      {
+        "matchPackageNames": ["react-pdf"],
+        "allowedVersions": "<5.0.0"
+      },
+      {
+        "matchPackageNames": ["query-string"],
         "allowedVersions": "<6.0.0"
       },
       {
-        "packageNames": ["crypto-random-string"],
+        "matchPackageNames": ["crypto-random-string"],
         "allowedVersions": "<3.3.0"
       }
     ]
