@@ -2,7 +2,7 @@
   "npm": {
     "packageRules": [
       {
-        "matchPackageNames": ["react-select"],
+        "matchPackageNames": ["react-select", "@types/react-select"],
         "allowedVersions": "<5.0.0"
       },
       {
