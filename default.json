@@ -6,6 +6,10 @@
         "allowedVersions": "<5.0.0"
       },
       {
+        "matchPackageNames": ["react"],
+        "allowedVersions": "<17.0.0"
+      },
+      {
         "matchPackageNames": ["js-base64"],
         "allowedVersions": "<3.0.0"
       },
